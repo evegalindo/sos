@@ -318,7 +318,7 @@ ul.nav.navbar-nav li a{color:#fff;}
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header { margin: 0px!important; }
 .navbar-toggle {padding:0px!important; position: relative; float: right;  background-color: none; background-image: none; z-index: 10000000; }
 .navbar-default .navbar-toggle .icon-bar { background-color: #77b655!important; }
-.navbar-default .navbar-collapse{margin-left:-15%!important; width:120%!important;}
+.navbar-default .navbar-collapse{margin-left:-12%!important; width:120%!important;}
 /*Menu*/
 .navbar-nav li{width:100%; text-align:center;}
 .navbar-nav li a span {color:white !important;}
