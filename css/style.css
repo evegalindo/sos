@@ -233,16 +233,18 @@ footer ul li { padding-right: 80px; float: left; list-style: none; font-size: 14
 @media only screen and (min-width: 768px) and (max-width: 999px) {
  /*Header*/
 header{padding:35px 3% 0px; height:auto;}
+header{border-bottom:none;}
 header .row{margin:0px!important;}
 header .navbrand-148{display:block; height: auto;}
 header .navbrand-148 img{width:190px;}
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{margin-left:0px!important;}
 header .navbar { margin: 0px!important; }
 header .container-fluid, .navbar-collapse{margin:0px; padding: 0px!important;}
-header ul{margin:20px 0px!important;}
+header ul{margin:20px 0px!important; border-bottom:1px solid #77B655; padding-bottom:20px;}
 .navbar-default .navbar-nav>li{margin:0px; width:16%; text-align:center; padding-top:40px!important;}
+.navbar-default .navbar-nav li.sin-margin-right{text-align:right;}
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover  {margin:0px; padding:0px;font-size:16px; font-family:"ArnoPro-Bold"; font-weight: bolder; color:#000!important;}
-.brand-header2_768{display:block; width:220px; position:absolute; right:60px; top:-60px;}
+.brand-header2_768{display:block; width:220px; position:absolute; right:28px; top:-60px;}
 .brand-header2_1024{display:none; }
 
 /*Home*/
@@ -261,46 +263,59 @@ header ul{margin:20px 0px!important;}
 #kunstler .kunstler-ml{padding:0px 0px 50px 50px;}
 #kunstler{padding:70px 0px 15px 0px ;}
 #kunstler .kunstler-mr a,#kunstler .kunstler-ml a{font-size:14px!important; font-family: "Helvetica"; font-weight:bolder;}
-.name{font-size:23px;}
+.name{font-size:23px; font-weight: bolder;}
 .lastname{font-size:27px;}
 
 /*Kunstler Descripcion*/
+.arrow-left{position:relative; top:50%; left:-100px;}
+.arrow-right{position:relative; top:50%; right:-100px;}
+.arrow-left img, .arrow-right img{width:50%;}
 #autor_descripcion{margin:40px 0px;}
 #autor_descripcion h1{font-size:54px;}
+#autor_descripcion h2{font-size:54px; margin-bottom:20px!important; color: #77B655;}
 #autor_descripcion #myCarousel{width: 560px; height: auto; margin: auto;}
 #autor_descripcion .item{width:560px;}
 #autor_descripcion .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{right:-40px;}
 #autor_descripcion .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{font-size:50px!important;}
 #autor_descripcion .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{left:-70px;}
 #autor_descripcion .texto-descriptivo{margin-top:25px;}
-#autor_descripcion h3{font-size:20px;}
-#autor_descripcion p{font-size:16px;}
-#autor_descripcion a{font-size:16px;}
+#autor_descripcion h3{font-size:24px; padding-top:25px; color:#000; padding-bottom:0px; margin-bottom:0px;}
+#autor_descripcion p{font-size:20px; line-height:1.5em;}
+#autor_descripcion a{font-size:20px;}
 #autor_descripcion .link{ margin: 30px 0px 45px 0px;}
-#autor_descripcion .details{width:100%; padding:0px 20px; text-align: justify; margin: auto;}
+#autor_descripcion .details{width:100%; padding:0px 20px; text-align: left; margin: auto;}
 #autor_descripcion .details img{margin:35px 0px 65px 0px;}
 #autor_descripcion .yt-container{margin:25px 0px;}
 
 /*UBER-UNS*/
-#uber-uns .texto-descriptivo{width:720px; margin: 0px auto 5px ;}
-#uber-uns .texto-descriptivo h1{font-size:36px; padding:35px 0px 30px!important;}
-#uber-uns .texto-descriptivo p{font-size:18px; text-align: justify; line-height: 1.8em;}
+#uber-uns, #kontakt{position:relative; top:-21px; z-index:10000;}
+#uber-uns .texto-descriptivo{width:90%; margin: 0px 5% 5px ;}
+#uber-uns .texto-descriptivo h1{font-size:36px; padding:25px 0px 15px!important;}
+#uber-uns .texto-descriptivo p{font-size:20px; font-weight: lighter; text-align: left; line-height: 1.3em; color:#000;}
 #uber-uns .texto-descriptivo img{padding:25px 0px;}
+/*kontakt*/
+#kontakt .texto-descriptivo{width: 90%; margin:20px 5% 85px;}
+#kontakt .texto-descriptivo h1{font-size:54px; padding:30px 0px 30px!important; color:#77B655;}
+#kontakt .texto-descriptivo h3{font-size:24px!important; margin-top:0px!important; line-height: 1.8em;}
+#kontakt .texto-descriptivo p{font-size:18px; }
+#kontakt .texto-descriptivo .mapa{margin:35px 0px 45px 0px;}
+#kontakt .texto-descriptivo img{margin-top:35px;}
 
 /*Footer*/
 footer { border-top: 1px solid #77b655; padding: 20px 0px 30px 0px; margin: 0px 5%; width:90% }
-footer ul.text-center {padding:0px!important; text-align: center; width: 100%; margin: 0px auto; }
-footer ul li { width:25%; padding:0px; text-align:center; float: left; list-style: none; font-size: 14px; }
+footer ul.text-center {padding:0px 5%important; text-align: center; width: 90%; margin: 0px auto; }
+footer ul li {font-weight:normal; width:22.5%; padding:0px; text-align:center; float: left; list-style: none; font-size: 14px; }
 
 /*Galeria*/
-#galerie{margin:0px 5% 0px 5%!important;}
+#galerie{margin:60px 5% 0px 5%!important;}
 #galerie img { height:auto; }
 #galerie .item-galerie{width:50%; height:380px; margin-bottom: 75px; float:left;}
 #galerie .item-galerie.margin-right{margin-right: 0px;}
 #galerie .item-galerie .imagen-galeria{margin:0px 20px 25px 20px!important; display: flex; min-height:179px; max-height:300px;}
 #galerie .item-galerie p{margin:0px!important;}
-#galerie .autor{font-size:16px; line-height: 1em!important;}
-#galerie .title{font-size:16px;}
+#galerie .autor{font-size:20px; font-weight:bolder; line-height: 1em!important;}
+#galerie .title{font-size:21px;}
+#galerie .item-galerie a{font-size:18px;}
 .col-lg-4, .imagen-galeria{margin:0px!important; padding:0px!important;}
 }
 
