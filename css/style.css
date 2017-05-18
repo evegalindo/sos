@@ -196,18 +196,17 @@ header .container-fluid, .navbar-collapse{margin:0px; padding: 0px!important;}
 
 /*Home*/
 .row .text-center h1 { color: #77B655!important; font-size: 77px; padding-bottom: 35px; }
-.row .text-center .texto-descriptivo { width: 70%; margin: 35px auto; font-size: 25px; }
+.row .text-center .texto-descriptivo { width: 60%; margin: 35px auto; font-size: 25px; }
 .row .text-center .texto-descriptivo p { font-size: 25px; font-weight: bolder; }
 .row .text-center .texto-descriptivo a { font-size: 25px; font-weight: bolder; color: #77b655; }
 .imagen-completa { margin-bottom: 40px; }
 
 /*Footer*/
-footer { border-top: 1px solid #77b655; padding: 20px 0px 30px 0px; }
-footer ul.text-center { text-align: center; width: 720px; margin: 0px auto; }
-footer ul li { padding-right: 80px; float: left; list-style: none; font-size: 14px; }
-
+footer { border-top: 1px solid #77b655; padding: 20px 0px 30px 0px; margin: 0px 5%; width:90% }
+footer ul li {font-weight:normal; padding:0px 5%; text-align:center; float: left; list-style: none; font-size: 14px; }
+footer ul{width:100%; padding:0px 10%;}
 /*Galeria*/
-#galerie{padding:200px 4%!important;}
+#galerie{padding:250px 4% 20px!important;}
 #galerie img { display: inline-block; height: auto;}
 #galerie .item-galerie{width:30%; margin-bottom: 75px; float:left;}
 #galerie .item-galerie img{width:100%;}
@@ -217,6 +216,23 @@ footer ul li { padding-right: 80px; float: left; list-style: none; font-size: 14
 #galerie .autor{font-size:24px; line-height: 1em!important;}
 #galerie .title{font-size:22px;}
 .col-lg-4, .imagen-galeria{margin:0px!important; padding:0px!important;}
+
+/*kunstler*/
+#kunstler{padding:250px 0px 0px 0px;}
+.name{font-size:23px; font-weight: bolder;}
+.lastname{font-size:27px;}
+
+/*Kunstler Descripcion*/
+.arrow-left{position:relative; top:50%; left:-100px;}
+.arrow-right{position:relative; top:50%; right:-100px;}
+.arrow-left img, .arrow-right img{width:50%;}
+#autor_descripcion{margin:0px 0px;}
+#autor_descripcion h1{font-size:54px; padding-top:40px;}
+#autor_descripcion h2{font-size:54px; margin-bottom:20px!important; color: #77B655;}
+
+#autor_descripcion .details{width:75%; padding:0px 12.5%; text-align: left; margin: auto;}
+#autor_descripcion .details img{margin:35px 0px 65px 0px;}
+#autor_descripcion .yt-container{margin:25px 0px;}
 
 /*kontakt*/
 #kontakt .texto-descriptivo{width: 720px; margin:70px auto 85px;}
@@ -298,9 +314,9 @@ header ul{margin:20px 0px!important; border-bottom:1px solid #77B655; padding-bo
 #kontakt .texto-descriptivo h1{font-size:54px; padding:30px 0px 30px!important; color:#77B655;}
 #kontakt .texto-descriptivo h3{font-size:24px!important; margin-top:0px!important; line-height: 1.8em;}
 #kontakt .texto-descriptivo p{font-size:18px; }
-#kontakt .texto-descriptivo .mapa{margin:35px 0px 45px 0px;}
+#kontakt .texto-descriptivo .mapa{margin:35px 40px 45px 0px;}
 #kontakt .texto-descriptivo img{margin-top:35px;}
-
+#kontakt .kontakt-derecho p{ line-height: 1.4em; }
 /*Footer*/
 footer { border-top: 1px solid #77b655; padding: 20px 0px 30px 0px; margin: 0px 5%; width:90% }
 footer ul.text-center {padding:0px 5%important; text-align: center; width: 90%; margin: 0px auto; }
@@ -334,6 +350,7 @@ ul.nav.navbar-nav{margin:0px;    position: relative;
 ul.nav.navbar-nav li{font-size:24px; text-align:center; color:#fff;}
 .navbar-default .navbar-nav>li{width:100%; padding:20px 0px;}
 ul.nav.navbar-nav li a{color:#fff;}
+.navbar-default .navbar-nav>li>a.active{color:#fff!important;}
 .navbar-default .navbar-toggle{border:none;}
 .col-md-8{width:100%; padding:0px!important; margin:0px!important;}
 .navbar-collapse.in{overflow:hidden;}
