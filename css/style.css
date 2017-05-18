@@ -55,7 +55,6 @@
 img { width: 100%; height: auto; }
 .float-left { float: left; }
 .float-right { float: right; }
-.imagen-completa { margin-bottom: 50px; }
 .deen {border-bottom: 1px solid white;}
 .separate{width:210px; height: 1px; display: block; margin: 0px auto; background-color: #77B655;}
 /*Header*/
@@ -200,6 +199,7 @@ header .container-fluid, .navbar-collapse{margin:0px; padding: 0px!important;}
 .row .text-center .texto-descriptivo p { font-size: 25px; font-weight: bolder; }
 .row .text-center .texto-descriptivo a { font-size: 25px; font-weight: bolder; color: #77b655; }
 .imagen-completa { margin-bottom: 40px; }
+.imagen-completa {position:relative; top:-20px; margin-bottom: 50px; }
 
 /*Footer*/
 footer { border-top: 1px solid #77b655; padding: 20px 0px 30px 0px; margin: 0px 5%; width:90% }
@@ -264,8 +264,7 @@ header ul{margin:20px 0px!important; border-bottom:1px solid #77B655; padding-bo
 .brand-header2_1024{display:none; }
 
 /*Home*/
-.imagen-completa{margin-top:0px!important; margin-bottom: 50px;}
-.imagen-completa  img{height:362px!important;  }
+.imagen-completa {position:relative; top:-20px; margin-bottom: 50px; }
 .preh1{font-size:1em!important;}
 .pre2{font-size:1.2em!important;}
 .row .text-center h1 { color: #77B655!important; font-size: 70px; line-height:0.9em; }
@@ -336,7 +335,7 @@ footer ul li {font-weight:normal; width:22.5%; padding:0px; text-align:center; f
 }
 
 /*Minimo 320 hasta 768px*/
- @media only screen and (min-width: 320px) and (max-width: 767px) {
+ @media only screen and (max-width: 767px) {
 
 header{padding:20px 15px;  height: 90px;}
 header .row{margin:0px!important;}
@@ -371,13 +370,14 @@ font-size: 2.2em;
 
 
 /*Home*/
-.imagen-completa img { width: 100%!important; height: 148px;}
+
 .preh1{font-size:1em!important;}
 .row .text-center h1 { color: #77B655!important; font-size: 30px; padding-bottom: 25px; }
 .row .text-center .texto-descriptivo { width: 100%; margin: 25px auto; padding: 0px 8%; font-size: 25px; }
 .row .text-center .texto-descriptivo p { font-size: 16px; font-weight: bolder; }
 .row .text-center .texto-descriptivo a { font-size: 16px; font-weight: bolder; color: #77b655; }
 .imagen-completa { margin-bottom: 20px; }
+.imagen-completa {position:relative; top:0px; }
 
 
 /*Footer*/
