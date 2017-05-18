@@ -3,38 +3,38 @@
 /*Fuentes*/
 @font-face {
 	font-family: 'ArnoPro-Regular';
-    src: url('fonts/original_ArnoPro-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/original_ArnoPro-Regular.woff') format('woff'),
-         url('fonts/original_ArnoPro-Regular.ttf') format('truetype'),
-         url('fonts/original_ArnoPro-Regular.svg') format('svg');
+    src: url('../fonts/original_ArnoPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/original_ArnoPro-Regular.woff') format('woff'),
+         url('../fonts/original_ArnoPro-Regular.ttf') format('truetype'),
+         url('../fonts/original_ArnoPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
 }
 @font-face{font-family: 'ArnoPro-Bold';
-    src: url('fonts/original_ArnoPro-Bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/original_ArnoPro-Bold.woff') format('woff'),
-         url('fonts/original_ArnoPro-Bold.ttf') format('truetype'),
-         url('fonts/original_ArnoPro-Bold.svg') format('svg');
+    src: url('../fonts/original_ArnoPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/original_ArnoPro-Bold.woff') format('woff'),
+         url('../fonts/original_ArnoPro-Bold.ttf') format('truetype'),
+         url('../fonts/original_ArnoPro-Bold.svg') format('svg');
 	font-weight: bold;
 	font-style: bold;}
 
 @font-face {
 	font-family: 'HelveticaNeueLT35';
-    src: url('fonts/original_HelveticaNeueLTCom-Th.eot?#iefix') format('embedded-opentype'),
-         url('fonts/original_HelveticaNeueLTCom-Th.woff') format('woff'),
-         url('fonts/original_HelveticaNeueLTCom-Th.ttf') format('truetype'),
-         url('fonts/original_HelveticaNeueLTCom-Th.svg') format('svg');
+    src: url('../fonts/original_HelveticaNeueLTCom-Th.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/original_HelveticaNeueLTCom-Th.woff') format('woff'),
+         url('../fonts/original_HelveticaNeueLTCom-Th.ttf') format('truetype'),
+         url('../fonts/original_HelveticaNeueLTCom-Th.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
     font-family: 'Helveticathin';
-    src: url('fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
-         url('fonts/HelveticaNeue-Thin.woff') format('woff'),
-         url('fonts/HelveticaNeue-Thin.ttf') format('truetype'),
-         url('fonts/HelveticaNeue-Thin.svg') format('svg');
+    src: url('../fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeue-Thin.woff') format('woff'),
+         url('../fonts/HelveticaNeue-Thin.ttf') format('truetype'),
+         url('../fonts/HelveticaNeue-Thin.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -322,7 +322,7 @@ ul.nav.navbar-nav li a{color:#fff;}
 /*Menu*/
 .navbar-nav li{width:100%; text-align:center;}
 .navbar-nav li a span {color:white !important;}
-.menu-list {color: #FFF !important;}
+.menu-list {color: #FFF !important; letter-spacing: 0.1em}
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .navbar-toggle {
 background-color: white;
 color: #77B655 !important;
@@ -378,7 +378,7 @@ footer .brand-footer img{width:auto; height: 50px; float:right;}
 .esconder{display: none;}
 
 /*Galeria*/
-#galerie{margin:0px 10px 0px 10px!important;}
+#galerie{margin:50px 10px 0px 10px!important;}
 #galerie h1{margin:0px!important; color:#77B655; padding-bottom:20px;}
 #galerie img { display: inline-block; width: 100%; height: auto;}
 #galerie .item-galerie{width:100%; margin-right:10px;margin-bottom: 35px;}
@@ -401,4 +401,37 @@ footer .brand-footer img{width:auto; height: 50px; float:right;}
 #kontakt .texto-descriptivo p{font-size:18px; }
 #kontakt .texto-descriptivo .mapa{margin:35px 0px 45px 0px;}
 #kontakt .texto-descriptivo img{margin-top:35px;}
+
+.fa-times {
+	font-size: 47px!important;
+	-webkit-text-stroke: 6px white;
+	-webkit-text-stroke-width: 8px;
+	-webkit-text-stroke-color: white;
+}
+
+.fa-bars {
+	font-size: 47px!important;
+	-webkit-text-stroke: 6px white;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: white;
+}
+
+.de {
+	font-family: "helvetica";
+	letter-spacing: 0.12em;
+}
+.en {
+	font-family: "helveticathin"!important;
+	letter-spacing: 0.12em;
+}
+
+.navbar-toggle {
+	width: 38px;
+	margin-bottom: 16px;
+}
+
+.collapsed {
+	width: 52px;
+}
+
 }
