@@ -337,11 +337,11 @@ footer ul li {font-weight:normal; width:22.5%; padding:0px; text-align:center; f
 /*Minimo 320 hasta 768px*/
  @media only screen and (max-width: 767px) {
 
-header{padding:20px 15px;  height: 90px;}
+header{padding:20px 15px;  height: auto;}
 header .row{margin:0px!important;}
 header .container-fluid{padding:0px;}
 header .navbrand-90{display:block; width: 100%; margin-top:-50px;}
-header .navbar-brand img { width: 90px; position:absolute; top:0px;}
+header .navbar-brand img { width: 35%; position:absolute; top:0px;}
 ul.navbar-nav{ -webkit-margin-before:0px!important;  -webkit-margin-after:0px!important;     -webkit-padding-start: 40px;
 :0px!important;}
 ul.nav.navbar-nav{margin:0px;    position: relative;
